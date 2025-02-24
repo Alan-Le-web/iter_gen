@@ -1,8 +1,8 @@
 class FlatIterator:
     def __init__(self, list_of_lists):
-        self.list_of_lists = list_of_lists  # Исправлено на правильное имя переменной
+        self.list_of_lists = list_of_lists
         self.outer_index = 0
-        self.inner_index = 0
+        self.inner_index = 1
 
     def __iter__(self):
         return self
